@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.custom;
+package org.firstinspires.ftc.teamcode.custom.driving;
 
 import com.acmerobotics.dashboard.config.Config;
 import com.arcrobotics.ftclib.controller.PIDFController;
@@ -21,8 +21,8 @@ import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 
 @Config
-@TeleOp(name = "Adil's Cock & Balls")
-public class AdilDolboebEbanyi extends LinearOpMode {
+@TeleOp(name = "MainDrive")
+public class MainDrive extends LinearOpMode {
     private Motor frontLeftMotor = null;
     private Motor backLeftMotor = null;
     private Motor frontRightMotor = null;
