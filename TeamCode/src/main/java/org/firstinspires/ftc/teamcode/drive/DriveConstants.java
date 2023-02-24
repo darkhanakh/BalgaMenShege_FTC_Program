@@ -40,6 +40,7 @@ public class DriveConstants {
 
     /*
      * These are physical constants that can be determined from your robot (including the track
+     *
      * width; it will be tune empirically later although a rough estimate is important). Users are
      * free to chose whichever linear distance unit they would like so long as it is consistently
      * used. The default values were selected with inches in mind. Road runner uses radians for
@@ -100,10 +101,10 @@ public class DriveConstants {
      * https://github.com/acmerobotics/road-runner-quickstart/issues/91
 
      */
-    public static double MAX_VEL = 36;
-    public static double MAX_ACCEL = 36;
-    public static double MAX_ANG_VEL = 1.6;
-    public static double MAX_ANG_ACCEL = 1.6;
+    public static double MAX_VEL = 57;
+    public static double MAX_ACCEL = 57;
+    public static double MAX_ANG_VEL = 1.7;
+    public static double MAX_ANG_ACCEL = 1.7;
 
     public static RevHubOrientationOnRobot.LogoFacingDirection LOGO_FACING_DIR =
             RevHubOrientationOnRobot.LogoFacingDirection.BACKWARD;

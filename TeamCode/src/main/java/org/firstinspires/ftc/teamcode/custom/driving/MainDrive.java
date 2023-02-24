@@ -331,7 +331,7 @@ public class MainDrive extends LinearOpMode {
         }
     }
 
-    void setTower(double v) {
+    public void setTower(double v) {
         double vScaled = clamp(v, 1);
         vScaled *= 0.25;
         tower.setPosition(0.5 + vScaled);
