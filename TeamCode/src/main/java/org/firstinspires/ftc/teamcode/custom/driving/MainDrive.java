@@ -149,9 +149,9 @@ public class MainDrive extends LinearOpMode {
             }
             clawPrev = gamepad2.left_bumper;
             if (clawOpen) {
-                clawPos = 0.9;
+                clawPos = 0.1;
             } else {
-                clawPos = 0.5;
+                clawPos = 0.2;
             }
             claw.setPosition(clawPos);
             lTLast = lT;

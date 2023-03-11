@@ -101,10 +101,10 @@ public class DriveConstants {
      * https://github.com/acmerobotics/road-runner-quickstart/issues/91
 
      */
-    public static double MAX_VEL = 57;
-    public static double MAX_ACCEL = 57;
-    public static double MAX_ANG_VEL = 1.7;
-    public static double MAX_ANG_ACCEL = 1.7;
+    public static double MAX_VEL = 38;
+    public static double MAX_ACCEL = 37;
+    public static double MAX_ANG_VEL = 1.4;
+    public static double MAX_ANG_ACCEL = 1.4;
 
     public static RevHubOrientationOnRobot.LogoFacingDirection LOGO_FACING_DIR =
             RevHubOrientationOnRobot.LogoFacingDirection.BACKWARD;
